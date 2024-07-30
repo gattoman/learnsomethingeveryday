@@ -1,0 +1,63 @@
+.header {
+    background: #fff;
+    padding: 0 50px;
+}
+
+.logo {
+    float: left;
+    margin-right: 20px;
+}
+
+.logo h3 {
+    margin: 16px 0;
+}
+
+.content {
+    padding: 0 50px;
+}
+
+.site-layout-content {
+    padding: 24px;
+    background: #fff;
+}
+
+.masonry-grid {
+    display: flex;
+    margin-left: -16px; /* gutter size offset */
+    width: auto;
+}
+
+.masonry-grid_column {
+    padding-left: 16px; /* gutter size */
+    background-clip: padding-box;
+}
+
+/* Style each item */
+.masonry-grid_column > div {
+    margin-bottom: 16px;
+}
+
+.custom-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.custom-card .ant-card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+}
+
+.clickable-tag {
+    border-radius: 15px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.clickable-tag:hover {
+    opacity: 0.8;
+}
